@@ -1,0 +1,56 @@
+@media screen and (max-width: 640px) {
+    header .container {
+        margin-bottom: 0;
+    }
+    header .logo {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    header nav {
+        float: none;
+        margin: 0 auto;
+        width: 90%;
+        max-width: 320px;
+    }
+    header nav ul {
+        padding: 15px 0;
+    }
+    header nav ul li {
+        text-align: center;
+        width: 33.33%;
+    }
+    header nav li a {
+        padding: 0;
+    }
+    /* ABOUT PAGE RULES */
+    #about-me img {
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin: 0 0 15px;
+    }
+}
+@media screen and (max-width: 980px) {
+    .wrapper .container {
+        max-width: 90%;
+    }
+}
+@media screen and (min-width: 641px) and (max-width: 980px) {
+    header nav ul li a {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+}
+@media screen and (min-width: 980px) {
+    .wrapper .container {
+        max-width: 65%;
+        float: none;
+        margin: 0 0 25px 68px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    header nav {
+        font-size: 16px;
+    }
+}
